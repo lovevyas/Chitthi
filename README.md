@@ -1,1 +1,3 @@
 # Chitthi
+
+### npm install
