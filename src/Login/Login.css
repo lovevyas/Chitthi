@@ -1,0 +1,43 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: antiquewhite;
+  background-image: url(https://cdn.wallpapersafari.com/61/71/Al8i1t.jpg);
+}
+
+.login > button {
+  /* margin-top: -10px; */
+  width: 300px;
+  background-color: #b818e4;
+
+  color: #eff2f5;
+  
+  font-weight: 800;
+  border: dashed;
+}
+
+.login__logo img{
+  width: 30rem;
+  height:  30rem;
+  
+}
+.login__logo{
+  border: solid;
+  background-color: white;
+  /* background-image: url(https://w0.peakpx.com/wallpaper/190/187/HD-wallpaper-whatsapp-cartoon-skull-dark-dead-punk.jpg); */
+}
+
+.login > button:hover {
+  background-color: #cc2a50;
+  color: #000000fe;
+}
+
+.login > div > img {
+  object-fit: contain;
+  height: 30re ;
+}
+.login > div {
+  display: flex;
+  flex-direction: column;
+}

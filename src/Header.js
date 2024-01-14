@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import logo from "./Asset/logoss.png";
+import logo from "./Asset/small_logo.png";
 import SearchIcon from "@mui/icons-material/Search";
 import HomeIcon from "@mui/icons-material/Home";
 import SubscriptionsIcon from "@mui/icons-material/Subscriptions";
@@ -11,17 +11,18 @@ import { Avatar } from "@mui/material";
 import { IconButton } from "@mui/material";
 //import { Add, Expand } from "@mui/icons-material";
 import { Add } from "@mui/icons-material";
-
+import { useStateValue } from './StateProvider';
 import { Forum } from "@mui/icons-material";
 import { NotificationsActive } from "@mui/icons-material";
 import { ExpandMore } from "@mui/icons-material";
 function Header() {
+  const [{user} , dispatch] = useStateValue();
   return (
     <div className="header">
       {/* header left start*/}
       <div className="header__left">
         {/* logo image start*/}
-        <img src={logo} alt="__logo" />
+        <img className="im" src={logo} alt="__logo" />
         {/* logo image end*/}
 
         {/* header input start */}
@@ -70,8 +71,8 @@ function Header() {
       <div className="header__right">
         {/* header info start */}
         <div className="header__info">
-          <Avatar />
-          <h4>Sujit Kar</h4>
+          <Avatar src={user.photoURL}/>
+          <h4>{user.displayName}</h4>
           <IconButton>
             <Add />
           </IconButton>
