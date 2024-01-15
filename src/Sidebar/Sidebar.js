@@ -1,6 +1,6 @@
 import React from "react";
 import "./Sidebar.css";
-import SidebarRow from "../Slidebar/SidebarRow";
+import SidebarRow from "./SidebarRow";
 import LocalHospitalIcon from "@mui/icons-material/LocalHospital";
 import EmojiFlagsIcon from "@mui/icons-material/EmojiFlags";
 import PeopleIcon from "@mui/icons-material/People";
