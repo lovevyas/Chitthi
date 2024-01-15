@@ -1,5 +1,6 @@
 import React from "react";
 import "../Header/Header.css";
+import "../App.js";
 import logo from "../Asset/small_logo.png";
 import SearchIcon from "@mui/icons-material/Search";
 import HomeIcon from "@mui/icons-material/Home";
@@ -9,14 +10,16 @@ import FlagIcon from "@mui/icons-material/Flag";
 import SupervisedUserCircleIcon from "@mui/icons-material/SupervisedUserCircle";
 import { Avatar } from "@mui/material";
 import { IconButton } from "@mui/material";
-//import { Add, Expand } from "@mui/icons-material";
+import { Link } from 'react-router-dom'; // Import Link
 import { Add } from "@mui/icons-material";
-import { useStateValue } from '../StateProvider';
+import { useStateValue } from '../StateProvider.js';
 import { Forum } from "@mui/icons-material";
 import { NotificationsActive } from "@mui/icons-material";
 import { ExpandMore } from "@mui/icons-material";
+
 function Header() {
   const [{user} , dispatch] = useStateValue();
+
   return (
     <div className="header">
       {/* header left start*/}
@@ -38,8 +41,12 @@ function Header() {
       <div className="header__center">
         {/* header option start */}
         <div className="header__option header__option--active">
-          <HomeIcon fontSize="large" />
-        </div>
+          
+        
+        <Link to="/"  >
+        <HomeIcon fontSize="large" />
+                            </Link>
+                            </div>
         {/* header option end */}
 
         {/* header option start */}
@@ -56,7 +63,10 @@ function Header() {
 
         {/* header option start */}
         <div className="header__option">
-          <StorefrontIcon fontSize="large" />
+          {/* Wrap StorefrontIcon with Link */}
+          <Link to="/event-calendar">
+            <StorefrontIcon fontSize="large" />
+          </Link>
         </div>
         {/* header option end */}
         {/* header option start */}
