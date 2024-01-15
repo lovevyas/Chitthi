@@ -18,22 +18,24 @@ function MessageSender() {
   
   const [{user} , dispatch] = useStateValue();
   const [input, setInput] = useState('');
-  const [inputURL, setInputURL] = useState('');
+  const [inputURL, setInputURL] = useState("");
+  const [likeCount, setLikeCount] = useState(0);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-  
 
-    db.collection('posts').add({
+    db.collection("posts").add({
       message: input,
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       profilePic: user.photoURL,
       username: user.displayName,
       image: inputURL,
-    })
+      like: likeCount,
+    });
 
-    setInput('');
-    setInputURL('');
+    setInput("");
+    setInputURL("");
+    setLikeCount(0);
   };
 
   return (
