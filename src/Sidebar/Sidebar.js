@@ -9,7 +9,7 @@ import StorefrontIcon from "@mui/icons-material/Storefront";
 import VideoLibraryIcon from "@mui/icons-material/VideoLibrary";
 
 import { ExpandMoreOutlined } from "@mui/icons-material";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../StateProvider";
 
 
 function Sidebar() {

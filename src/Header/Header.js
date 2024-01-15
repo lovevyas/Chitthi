@@ -1,6 +1,6 @@
 import React from "react";
-import "./Header.css";
-import logo from "./Asset/small_logo.png";
+import "../Header/Header.css";
+import logo from "../Asset/small_logo.png";
 import SearchIcon from "@mui/icons-material/Search";
 import HomeIcon from "@mui/icons-material/Home";
 import SubscriptionsIcon from "@mui/icons-material/Subscriptions";
@@ -11,7 +11,7 @@ import { Avatar } from "@mui/material";
 import { IconButton } from "@mui/material";
 //import { Add, Expand } from "@mui/icons-material";
 import { Add } from "@mui/icons-material";
-import { useStateValue } from './StateProvider';
+import { useStateValue } from '../StateProvider';
 import { Forum } from "@mui/icons-material";
 import { NotificationsActive } from "@mui/icons-material";
 import { ExpandMore } from "@mui/icons-material";
