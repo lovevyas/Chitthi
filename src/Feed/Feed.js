@@ -28,6 +28,7 @@ function Feed() {
         timestamp="Timeing : here"
         username="user1"
         image="https://rb.gy/kk5ted"
+        like={0}
       />
       <Post
         profilePic="https://rb.gy/mpdmhm"
@@ -35,6 +36,7 @@ function Feed() {
         timestamp="Timeing : here"
         username="user1"
         image="https://rb.gy/4sg71k"
+        like={0}
       />
       <Post
         profilePic="https://rb.gy/mpdmhm"
@@ -42,16 +44,18 @@ function Feed() {
         timestamp="Timeing : here"
         username="user1"
         image="https://rb.gy/gljf4u"
+        like={0}
       />
-      {posts.map(post => (
-      <Post
-        key={post.data.id}
-        profilePic={post.data.profilePic}
-        message={post.data.message}
-        timestamp={post.data.timestamp ? post.data.timestamp.toDate() : null}
-        username={post.data.username}
-        image={post.data.image}
-      />
+      {posts.map((post) => (
+        <Post
+          key={post.data.id}
+          profilePic={post.data.profilePic}
+          message={post.data.message}
+          timestamp={post.data.timestamp ? post.data.timestamp.toDate() : null}
+          username={post.data.username}
+          image={post.data.image}
+          like={post.data.like}
+        />
       ))}
     </div>
   );

@@ -4,21 +4,18 @@ import "../App.js";
 import logo from "../Asset/small_logo.png";
 import SearchIcon from "@mui/icons-material/Search";
 import HomeIcon from "@mui/icons-material/Home";
-import SubscriptionsIcon from "@mui/icons-material/Subscriptions";
+
 import StorefrontIcon from "@mui/icons-material/Storefront";
-import FlagIcon from "@mui/icons-material/Flag";
+
 import SupervisedUserCircleIcon from "@mui/icons-material/SupervisedUserCircle";
 import { Avatar } from "@mui/material";
 import { IconButton } from "@mui/material";
 import { Link } from 'react-router-dom'; // Import Link
 import { Add } from "@mui/icons-material";
-import { useStateValue } from '../StateProvider.js';
-import { Forum } from "@mui/icons-material";
-import { NotificationsActive } from "@mui/icons-material";
-import { ExpandMore } from "@mui/icons-material";
+import { useStateValue } from "../StateProvider";
 
 function Header() {
-  const [{user} , dispatch] = useStateValue();
+  const [{ user }, dispatch] = useStateValue();
 
   return (
     <div className="header">
@@ -41,23 +38,9 @@ function Header() {
       <div className="header__center">
         {/* header option start */}
         <div className="header__option header__option--active">
-          
-        
-        <Link to="/"  >
-        <HomeIcon fontSize="large" />
-                            </Link>
-                            </div>
-        {/* header option end */}
-
-        {/* header option start */}
-        <div className="header__option">
-          <FlagIcon fontSize="large" />
-        </div>
-        {/* header option end */}
-
-        {/* header option start */}
-        <div className="header__option">
-          <SubscriptionsIcon fontSize="large" />
+          <Link to="/">
+            <HomeIcon fontSize="large" />
+          </Link>
         </div>
         {/* header option end */}
 
@@ -81,19 +64,10 @@ function Header() {
       <div className="header__right">
         {/* header info start */}
         <div className="header__info">
-          <Avatar src={user.photoURL}/>
+          <Avatar src={user.photoURL} />
           <h4>{user.displayName}</h4>
           <IconButton>
             <Add />
-          </IconButton>
-          <IconButton>
-            <Forum />
-          </IconButton>
-          <IconButton>
-            <NotificationsActive />
-          </IconButton>
-          <IconButton>
-            <ExpandMore />
           </IconButton>
         </div>
         {/* header info end */}
