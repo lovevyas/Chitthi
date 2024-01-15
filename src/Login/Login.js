@@ -27,13 +27,10 @@ function Login() {
   return (
     <div className="login">
       <div className="login__logo">
-        <img className="log"
-          src={logo}
-          alt=""
-        />
-        
+        <img className="log" src={logo} alt="" />
       </div>
-      <Button type="submit" onClick={signIn}>
+
+      <Button className="btn" onClick={signIn}>
         Sign In
       </Button>
     </div>
