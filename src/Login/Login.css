@@ -7,7 +7,7 @@
 }
 
 .login > button {
-  /* margin-top: -10px; */
+  margin-top: -10px;
   width: 300px;
   background-color: #b818e4;
 
@@ -23,13 +23,14 @@
   
 }
 .login__logo{
-  border: solid;
+  border: 0.8rem solid yellow;
+  border-radius: 0.4rem;
   background-color: white;
-  /* background-image: url(https://w0.peakpx.com/wallpaper/190/187/HD-wallpaper-whatsapp-cartoon-skull-dark-dead-punk.jpg); */
+  /* background-image: url(https://w0.peakpx.com/wallpaper/190/187/HD-wallpaper-whatsapp-cartoon-skull-dark-dead-punk.jpg);  */
 }
 
 .login > button:hover {
-  background-color: #cc2a50;
+  background-color: #11e450;
   color: #000000fe;
 }
 
@@ -40,4 +41,12 @@
 .login > div {
   display: flex;
   flex-direction: column;
+}
+
+
+/* Media queries to adjust layout on different screen sizes */
+@media (max-width: 768px) {
+  .login {
+    grid-template-rows: 1fr auto; /* Adjust grid for smaller screens */
+  }
 }
