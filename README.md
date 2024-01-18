@@ -4,10 +4,7 @@
 <p align="center">
     <h1 align="center">CHITTHI</h1>
 </p>
-<p align="center">
-    <em>Error generating text for slogan: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401</em>
-</p>
+
 <p align="center">
 	<img src="https://img.shields.io/github/license/lovevyas/Chitthi?style=flat&color=0080ff" alt="license">
 	<img src="https://img.shields.io/github/last-commit/lovevyas/Chitthi?style=flat&color=0080ff" alt="last-commit">
