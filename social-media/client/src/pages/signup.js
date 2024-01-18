@@ -71,7 +71,7 @@ const SignUp = () => {
   return (
     <div className="mycard">
       <div className="card auth-card">
-        <h2>Aliferous</h2>
+        <h2>Chitthi</h2>
         <input
           type="text"
           placeholder="Name"
@@ -101,8 +101,7 @@ const SignUp = () => {
         </div>
         <button
           className="btn waves-effect waves-light"
-          onClick={() => PostData()}
-        >
+          onClick={() => PostData()}>
           Sign Up
         </button>
         <p>
