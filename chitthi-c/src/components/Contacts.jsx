@@ -19,7 +19,7 @@ export default function Contacts({ contacts, changeChat }) {
   };
   return (
     <>
-      {currentUserImage && currentUserImage && (
+      {currentUserImage && (
         <Container>
           <div className="brand">
             <img src={Logo} alt="logo" />
@@ -33,8 +33,7 @@ export default function Contacts({ contacts, changeChat }) {
                   className={`contact ${
                     index === currentSelected ? "selected" : ""
                   }`}
-                  onClick={() => changeCurrentChat(index, contact)}
-                >
+                  onClick={() => changeCurrentChat(index, contact)}>
                   <div className="avatar">
                     <img
                       src={`data:image/svg+xml;base64,${contact.avatarImage}`}
