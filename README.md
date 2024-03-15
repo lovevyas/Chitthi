@@ -48,15 +48,8 @@
 
 ##  Overview
 
-Error generating text for overview: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
-
----
-
-##  Features
-
-Error generating text for features: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Chitthi is your go-to social media platform designed for community building and event promotion. Connect with like-minded individuals, create groups, and seamlessly schedule and promote events. Stay in the loop with Chitthi – where communication meets community
+ 
 
 ---
 
@@ -101,7 +94,7 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 | File                                                                     | Summary                                                                                                                                                                                                             |
 | ---                                                                      | ---                                                                                                                                                                                                                 |
 | [.gitignore](https://github.com/lovevyas/Chitthi/blob/master/.gitignore) | Error generating text for .gitignore: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401 |
+  |
 
 </details>
 
@@ -110,11 +103,11 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 | File                                                                                          | Summary                                                                                                                                                                                                                           |
 | ---                                                                                           | ---                                                                                                                                                                                                                               |
 | [index.js](https://github.com/lovevyas/Chitthi/blob/master/server/index.js)                   | Error generating text for server/index.js: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401          |
+           |
 | [package-lock.json](https://github.com/lovevyas/Chitthi/blob/master/server/package-lock.json) | Error generating text for server/package-lock.json: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401 |
+  |
 | [package.json](https://github.com/lovevyas/Chitthi/blob/master/server/package.json)           | Error generating text for server/package.json: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401      |
+       |
 
 </details>
 
@@ -123,9 +116,9 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 | File                                                                                     | Summary                                                                                                                                                                                                                            |
 | ---                                                                                      | ---                                                                                                                                                                                                                                |
 | [messages.js](https://github.com/lovevyas/Chitthi/blob/master/server/routes/messages.js) | Error generating text for server/routes/messages.js: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401 |
+  |
 | [auth.js](https://github.com/lovevyas/Chitthi/blob/master/server/routes/auth.js)         | Error generating text for server/routes/auth.js: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401     |
+      |
 
 </details>
 
@@ -134,9 +127,9 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 | File                                                                                             | Summary                                                                                                                                                                                                                                |
 | ---                                                                                              | ---                                                                                                                                                                                                                                    |
 | [userModel.js](https://github.com/lovevyas/Chitthi/blob/master/server/models/userModel.js)       | Error generating text for server/models/userModel.js: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401    |
+     |
 | [messageModel.js](https://github.com/lovevyas/Chitthi/blob/master/server/models/messageModel.js) | Error generating text for server/models/messageModel.js: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401 |
+  |
 
 </details>
 
@@ -145,9 +138,9 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 | File                                                                                                            | Summary                                                                                                                                                                                                                                          |
 | ---                                                                                                             | ---                                                                                                                                                                                                                                              |
 | [userController.js](https://github.com/lovevyas/Chitthi/blob/master/server/controllers/userController.js)       | Error generating text for server/controllers/userController.js: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401    |
+     |
 | [messageController.js](https://github.com/lovevyas/Chitthi/blob/master/server/controllers/messageController.js) | Error generating text for server/controllers/messageController.js: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401 |
+  |
 
 </details>
 
@@ -156,9 +149,9 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 | File                                                                                             | Summary                                                                                                                                                                                                                              |
 | ---                                                                                              | ---                                                                                                                                                                                                                                  |
 | [package-lock.json](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/package-lock.json) | Error generating text for chitthi-c/package-lock.json: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401 |
+  |
 | [package.json](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/package.json)           | Error generating text for chitthi-c/package.json: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401      |
+       |
 
 </details>
 
@@ -167,9 +160,9 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 | File                                                                                            | Summary                                                                                                                                                                                                                                 |
 | ---                                                                                             | ---                                                                                                                                                                                                                                     |
 | [index.html](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/public/index.html)       | Error generating text for chitthi-c/public/index.html: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401    |
+     |
 | [manifest.json](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/public/manifest.json) | Error generating text for chitthi-c/public/manifest.json: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401 |
+  |
 
 </details>
 
@@ -178,11 +171,11 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 | File                                                                                 | Summary                                                                                                                                                                                                                          |
 | ---                                                                                  | ---                                                                                                                                                                                                                              |
 | [index.js](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/src/index.js)   | Error generating text for chitthi-c/src/index.js: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401  |
+   |
 | [App.js](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/src/App.js)       | Error generating text for chitthi-c/src/App.js: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401    |
+     |
 | [index.css](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/src/index.css) | Error generating text for chitthi-c/src/index.css: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401 |
+  |
 
 </details>
 
@@ -191,7 +184,7 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 | File                                                                                             | Summary                                                                                                                                                                                                                                   |
 | ---                                                                                              | ---                                                                                                                                                                                                                                       |
 | [APIRoutes.js](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/src/utils/APIRoutes.js) | Error generating text for chitthi-c/src/utils/APIRoutes.js: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401 |
+  |
 
 </details>
 
@@ -200,17 +193,17 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 | File                                                                                                            | Summary                                                                                                                                                                                                                                             |
 | ---                                                                                                             | ---                                                                                                                                                                                                                                                 |
 | [Welcome.jsx](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/src/components/Welcome.jsx)             | Error generating text for chitthi-c/src/components/Welcome.jsx: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401       |
+        |
 | [Contacts.jsx](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/src/components/Contacts.jsx)           | Error generating text for chitthi-c/src/components/Contacts.jsx: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401      |
+       |
 | [ChatContainer.jsx](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/src/components/ChatContainer.jsx) | Error generating text for chitthi-c/src/components/ChatContainer.jsx: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401 |
+  |
 | [SetAvatar.jsx](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/src/components/SetAvatar.jsx)         | Error generating text for chitthi-c/src/components/SetAvatar.jsx: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401     |
+      |
 | [ChatInput.jsx](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/src/components/ChatInput.jsx)         | Error generating text for chitthi-c/src/components/ChatInput.jsx: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401     |
+      |
 | [Logout.jsx](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/src/components/Logout.jsx)               | Error generating text for chitthi-c/src/components/Logout.jsx: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401        |
+         |
 
 </details>
 
@@ -219,11 +212,11 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 | File                                                                                             | Summary                                                                                                                                                                                                                                   |
 | ---                                                                                              | ---                                                                                                                                                                                                                                       |
 | [Register.jsx](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/src/pages/Register.jsx) | Error generating text for chitthi-c/src/pages/Register.jsx: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401 |
+  |
 | [Chat.jsx](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/src/pages/Chat.jsx)         | Error generating text for chitthi-c/src/pages/Chat.jsx: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401     |
+      |
 | [Login.jsx](https://github.com/lovevyas/Chitthi/blob/master/chitthi-c/src/pages/Login.jsx)       | Error generating text for chitthi-c/src/pages/Login.jsx: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401    |
+     |
 
 </details>
 
